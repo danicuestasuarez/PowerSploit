@@ -17,7 +17,7 @@ Note: The tools contained within this module were all designed such that they ca
 PowerUp aims to be a clearinghouse of common Windows privilege escalation
 vectors that rely on misconfigurations.
 
-Running Invoke-AllChecks will output any identifiable vulnerabilities along
+Running Invoke-PrivescAudit will output any identifiable vulnerabilities along
 with specifications for any abuse functions. The -HTMLReport flag will also
 generate a COMPUTER.username.html version of the report.
 
@@ -64,4 +64,4 @@ Optional Dependencies: None
     Set-ServiceBinPath                  -   sets the binary path for a service to a specified value through Win32 API methods
     Test-ServiceDaclPermission          -   tests one or more passed services or service names against a given permission set
     Write-UserAddMSI                    -   write out a MSI installer that prompts for a user to be added
-    Invoke-AllChecks                    -   runs all current escalation checks and returns a report
+    Invoke-PrivescAudit                 -   runs all current escalation checks and returns a report
